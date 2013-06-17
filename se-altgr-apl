@@ -1,0 +1,54 @@
+// This file goes into /usr/share/X11/xkb/symbols
+// Activated by: setxkbmap -option -option ctrl:nocaps se-altgr-apl
+
+partial default alphanumeric_keys
+xkb_symbols "basic" {
+    include "se(basic)"
+
+    name[Group1]="Swedish (AltGr-APL)";
+
+    key <AB01> { [ z, Z,              U2282,    U2264 ] }; // Left-Shoe (Enclose)        / Less-than-or-Equal
+    key <AB02> { [ x, X,              U2283,    U2265 ] }; // Right-Shoe (Disclose)      / Greater-than-or-Equal
+    key <AB03> { [ c, C,              U2229,    U005E ] }; // Up-Shoe (Intersect)        / Up-Caret (And)
+    key <AB04> { [ v, V,              U222A,    U2228 ] }; // Down-Shoe (Union)          / Down-Caret (Or)
+    key <AB05> { [ b, B,              U22A4           ] }; // Down-Tack (decode base)
+    key <AB06> { [ n, N,              U22A5           ] }; // Up-Tack (encode represent)
+    key <AB08> { [ comma,  semicolon, U235D,    U236A ] }; // Up-Shoe Jot (Lamp Comment) / Comma Bar (Catenate 1st)
+    key <AB09> { [ period,     colon, NoSymbol, U233F ] }; //                            / Slash Bar
+    key <AB10> { [ minus, underscore, U00AF,    U2340 ] }; // Overbar (High Minus)       / Back-Slash bar
+
+    key <AC01> { [ a,                   A, U237A           ] }; // Alpha
+    key <AC02> { [ s,                   S, U2308,    U2337 ] }; // Ceiling (Max)          / Squad
+    key <AC03> { [ d,                   D, U230A,    U2339 ] }; // Floor (Min)            / Quad Divide (Domino Inverse)
+    key <AC05> { [ g,                   G, U2207           ] }; // Del (Function Edit)
+    key <AC06> { [ h,                   H, U2206,    U2359 ] }; // Delta                  / Delta underbar
+    key <AC07> { [ j,                   J, U2218           ] }; // Jot (Compose Outer)
+    key <AC09> { [ l,                   L, U2395,    U235E ] }; // Quad                   / Quote Quad
+    key <AC10> { [ odiaeresis, Odiaeresis, U234E,    U2261 ] }; // Up-Tack Jot (Execute)  / Equal Underbar (Match)
+    key <AC11> { [ adiaeresis, Adiaeresis, U2355,    U2262 ] }; // Down-Tack Jot (Format) / Not-Equal Underbar (Natch)
+    key <AC12> { [ apostrophe,   asterisk, NoSymbol, U2336 ] }; // I-beam
+
+    key <AD02> { [ w,             W, U2375        ] }; // Omega
+    key <AD03> { [ e,             E, U220A        ] }; // Epsilon (Type Membership)
+    key <AD04> { [ r,             R, U2374        ] }; // Rho (Shape Reshape)
+    key <AD05> { [ t,             T, U22A2        ] }; // Right-Tack
+    key <AD06> { [ y,             Y, U2191        ] }; // Up-Arrow (Mix Take)
+    key <AD07> { [ u,             U, U2193        ] }; // Down-Arrow (Split Drop)
+    key <AD08> { [ i,             I, U2373        ] }; // Iota (Index)
+    key <AD09> { [ o,             O, U25CB, U2371 ] }; // Circle (Trig)               / Down-Caret Tilde (Nor)
+    key <AD10> { [ p,             P, U2363, U2372 ] }; // Star Diaresis               / Up-Caret Tilde (Nand)
+    key <AD11> { [ aring,     Aring, U2190        ] }; // Left-Arrow (Assign Specify)
+    key <AD12> { [ diaeresis, caret, U007E, U2192 ] }; // Tilde (Not Exclude Without) / Right-Arrow (Branch)
+
+    key <TLDE> { [ section,    onehalf,     U22C4,       U2377 ] }; // Diamond           / Epsilon Underbar (Find)
+    key <AE01> { [ 1,          exclam,      U2368              ] }; // Diaeresis Tilde (Commute)
+    key <AE03> { [ 3,          numbersign,  sterling,    U2352 ] }; // Del Stile (Down Grade)
+    key <AE04> { [ 4,          currency,    dollar,      U234B ] }; // Delta Stile (Up Grade)
+    key <AE05> { [ 5,          percent,     NoSymbol,    U233D ] }; // Circle Stile (Rotate)
+    key <AE06> { [ 6,          ampersand,   NoSymbol,    U2349 ] }; // Circle Backslash (Transpose)
+    key <AE07> { [ 7,          slash,       NoSymbol,    U2296 ] }; // Circle Bar (Rotate 1st)
+    key <AE08> { [ 8,          parenleft,   bracketleft, U235F ] }; // Circle Star (Logarithm)
+    key <AE10> { [ 0,          equal,       NoSymbol,    U2260 ] }; // Not-Equal
+    key <AE11> { [ plus,       question,    backslash,   U236C ] }; // Zero Tilde (Zilde)
+    key <AE12> { [ dead_acute, dead_grave,  U00D7,       U00F7 ] }; // Multiply (Signum) / Divide (Reciprocal)
+};
