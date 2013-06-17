@@ -38,7 +38,7 @@ xkb_symbols "basic" {
     key <AD09> { [ o,             O, U25CB, U2371 ] }; // Circle (Trig)               / Down-Caret Tilde (Nor)
     key <AD10> { [ p,             P, U2363, U2372 ] }; // Star Diaresis               / Up-Caret Tilde (Nand)
     key <AD11> { [ aring,     Aring, U2190        ] }; // Left-Arrow (Assign Specify)
-    key <AD12> { [ diaeresis, caret, U007E, U2192 ] }; // Tilde (Not Exclude Without) / Right-Arrow (Branch)
+    key <AD12> { [ diaeresis, asciicircum, U007E, U2192 ] }; // Tilde (Not Exclude Without) / Right-Arrow (Branch)
 
     key <TLDE> { [ section,    onehalf,     U22C4,       U2377 ] }; // Diamond           / Epsilon Underbar (Find)
     key <AE01> { [ 1,          exclam,      U2368              ] }; // Diaeresis Tilde (Commute)
