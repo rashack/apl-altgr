@@ -9,7 +9,7 @@ xkb_symbols "basic" {
 
     key <AB01> { [ z, Z,              U2282,    U2264 ] }; // Left-Shoe (Enclose)        / Less-than-or-Equal
     key <AB02> { [ x, X,              U2283,    U2265 ] }; // Right-Shoe (Disclose)      / Greater-than-or-Equal
-    key <AB03> { [ c, C,              U2229,    U005E ] }; // Up-Shoe (Intersect)        / Up-Caret (And)
+    key <AB03> { [ c, C,              U2229,    U2227 ] }; // Up-Shoe (Intersect)        / Up-Caret (And)
     key <AB04> { [ v, V,              U222A,    U2228 ] }; // Down-Shoe (Union)          / Down-Caret (Or)
     key <AB05> { [ b, B,              U22A4           ] }; // Down-Tack (decode base)
     key <AB06> { [ n, N,              U22A5           ] }; // Up-Tack (encode represent)
